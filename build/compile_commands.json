@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/home/joshua/Desktop/csv_analytics_cli/build",
+  "command": "/usr/bin/c++   -g -std=c++20 -Wall -Wextra -Wpedantic -Wconversion -Wshadow -fsanitize=address,undefined -fno-omit-frame-pointer -o CMakeFiles/csv_analytics.dir/src/main.cpp.o -c /home/joshua/Desktop/csv_analytics_cli/src/main.cpp",
+  "file": "/home/joshua/Desktop/csv_analytics_cli/src/main.cpp",
+  "output": "CMakeFiles/csv_analytics.dir/src/main.cpp.o"
+},
+{
+  "directory": "/home/joshua/Desktop/csv_analytics_cli/build",
+  "command": "/usr/bin/c++   -g -std=c++20 -Wall -Wextra -Wpedantic -Wconversion -Wshadow -fsanitize=address,undefined -fno-omit-frame-pointer -o CMakeFiles/tests.dir/src/tests/test_smoke.cpp.o -c /home/joshua/Desktop/csv_analytics_cli/src/tests/test_smoke.cpp",
+  "file": "/home/joshua/Desktop/csv_analytics_cli/src/tests/test_smoke.cpp",
+  "output": "CMakeFiles/tests.dir/src/tests/test_smoke.cpp.o"
+}
+]

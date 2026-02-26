@@ -1,0 +1,5 @@
+/home/joshua/Desktop/csv_analytics_cli/build/CMakeFiles/csv_analytics.dir
+/home/joshua/Desktop/csv_analytics_cli/build/CMakeFiles/tests.dir
+/home/joshua/Desktop/csv_analytics_cli/build/CMakeFiles/test.dir
+/home/joshua/Desktop/csv_analytics_cli/build/CMakeFiles/edit_cache.dir
+/home/joshua/Desktop/csv_analytics_cli/build/CMakeFiles/rebuild_cache.dir
