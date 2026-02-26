@@ -152,6 +152,30 @@ tests/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/build
 .PHONY : tests/fast
 
+src/cli/Args.o: src/cli/Args.cpp.o
+.PHONY : src/cli/Args.o
+
+# target to build an object file
+src/cli/Args.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/csv_analytics.dir/build.make CMakeFiles/csv_analytics.dir/src/cli/Args.cpp.o
+.PHONY : src/cli/Args.cpp.o
+
+src/cli/Args.i: src/cli/Args.cpp.i
+.PHONY : src/cli/Args.i
+
+# target to preprocess a source file
+src/cli/Args.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/csv_analytics.dir/build.make CMakeFiles/csv_analytics.dir/src/cli/Args.cpp.i
+.PHONY : src/cli/Args.cpp.i
+
+src/cli/Args.s: src/cli/Args.cpp.s
+.PHONY : src/cli/Args.s
+
+# target to generate assembly for a file
+src/cli/Args.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/csv_analytics.dir/build.make CMakeFiles/csv_analytics.dir/src/cli/Args.cpp.s
+.PHONY : src/cli/Args.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -211,6 +235,9 @@ help:
 	@echo "... test"
 	@echo "... csv_analytics"
 	@echo "... tests"
+	@echo "... src/cli/Args.o"
+	@echo "... src/cli/Args.i"
+	@echo "... src/cli/Args.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

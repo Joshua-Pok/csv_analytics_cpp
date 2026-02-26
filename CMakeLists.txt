@@ -30,6 +30,7 @@ endfunction()
 # ---- App ----
 add_executable(csv_analytics
   src/main.cpp
+  src/cli/Args.cpp
 )
 
 enable_warnings(csv_analytics)

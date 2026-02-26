@@ -5,6 +5,7 @@ csv_analytics: \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libasan_preinit.o \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libasan.so \
   CMakeFiles/csv_analytics.dir/src/main.cpp.o \
+  CMakeFiles/csv_analytics.dir/src/cli/Args.cpp.o \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libstdc++.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libm.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libm.so \
@@ -45,6 +46,8 @@ csv_analytics: \
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libasan.so:
 
 CMakeFiles/csv_analytics.dir/src/main.cpp.o:
+
+CMakeFiles/csv_analytics.dir/src/cli/Args.cpp.o:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libstdc++.so:
 

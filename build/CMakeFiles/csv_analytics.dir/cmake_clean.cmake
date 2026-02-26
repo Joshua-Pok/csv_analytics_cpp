@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/csv_analytics.dir/link.d"
+  "CMakeFiles/csv_analytics.dir/src/cli/Args.cpp.o"
+  "CMakeFiles/csv_analytics.dir/src/cli/Args.cpp.o.d"
   "CMakeFiles/csv_analytics.dir/src/main.cpp.o"
   "CMakeFiles/csv_analytics.dir/src/main.cpp.o.d"
   "csv_analytics"

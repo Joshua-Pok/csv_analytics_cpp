@@ -88,12 +88,12 @@ clean: CMakeFiles/tests.dir/clean
 CMakeFiles/csv_analytics.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/csv_analytics.dir/build.make CMakeFiles/csv_analytics.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/csv_analytics.dir/build.make CMakeFiles/csv_analytics.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/joshua/Desktop/csv_analytics_cli/build/CMakeFiles --progress-num=1,2 "Built target csv_analytics"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/joshua/Desktop/csv_analytics_cli/build/CMakeFiles --progress-num=1,2,3 "Built target csv_analytics"
 .PHONY : CMakeFiles/csv_analytics.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/csv_analytics.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/joshua/Desktop/csv_analytics_cli/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/joshua/Desktop/csv_analytics_cli/build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/csv_analytics.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/joshua/Desktop/csv_analytics_cli/build/CMakeFiles 0
 .PHONY : CMakeFiles/csv_analytics.dir/rule
@@ -105,7 +105,7 @@ csv_analytics: CMakeFiles/csv_analytics.dir/rule
 # codegen rule for target.
 CMakeFiles/csv_analytics.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/csv_analytics.dir/build.make CMakeFiles/csv_analytics.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/joshua/Desktop/csv_analytics_cli/build/CMakeFiles --progress-num=1,2 "Finished codegen for target csv_analytics"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/joshua/Desktop/csv_analytics_cli/build/CMakeFiles --progress-num=1,2,3 "Finished codegen for target csv_analytics"
 .PHONY : CMakeFiles/csv_analytics.dir/codegen
 
 # clean rule for target.
@@ -120,7 +120,7 @@ CMakeFiles/csv_analytics.dir/clean:
 CMakeFiles/tests.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/joshua/Desktop/csv_analytics_cli/build/CMakeFiles --progress-num=3,4 "Built target tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/joshua/Desktop/csv_analytics_cli/build/CMakeFiles --progress-num=4,5 "Built target tests"
 .PHONY : CMakeFiles/tests.dir/all
 
 # Build rule for subdir invocation for target.
@@ -137,7 +137,7 @@ tests: CMakeFiles/tests.dir/rule
 # codegen rule for target.
 CMakeFiles/tests.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/joshua/Desktop/csv_analytics_cli/build/CMakeFiles --progress-num=3,4 "Finished codegen for target tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/joshua/Desktop/csv_analytics_cli/build/CMakeFiles --progress-num=4,5 "Finished codegen for target tests"
 .PHONY : CMakeFiles/tests.dir/codegen
 
 # clean rule for target.

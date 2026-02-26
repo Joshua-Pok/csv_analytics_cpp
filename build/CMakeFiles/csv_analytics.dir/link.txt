@@ -1,1 +1,1 @@
-/usr/bin/c++ -g -fsanitize=address,undefined -fno-omit-frame-pointer -Wl,--dependency-file=CMakeFiles/csv_analytics.dir/link.d CMakeFiles/csv_analytics.dir/src/main.cpp.o -o csv_analytics
+/usr/bin/c++ -g -fsanitize=address,undefined -fno-omit-frame-pointer -Wl,--dependency-file=CMakeFiles/csv_analytics.dir/link.d CMakeFiles/csv_analytics.dir/src/main.cpp.o CMakeFiles/csv_analytics.dir/src/cli/Args.cpp.o -o csv_analytics

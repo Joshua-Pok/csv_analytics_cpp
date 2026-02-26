@@ -2,6 +2,8 @@
 #include "Args.h"
 #include <variant>
 
+
+namespace CLI{
 //parses arguments
 std::variant<CLI::Args, std::string> ParseArguments(int argc, char* argv[]){ //argc stands for argument count, argv stands for argument values
 	
@@ -46,4 +48,26 @@ std::variant<CLI::Args, std::string> ParseArguments(int argc, char* argv[]){ //a
 	return args;
 
 
+}
+
+
+std::string Usage(){
+	// returns a string describing how to use the program
+	return R"(
+
+	csv_analytics
+	Usage:
+
+	csv_analytics --input <file.csv> [--input <file2.csv]
+
+	csv analytics --help
+
+
+	Options:
+	--input <path>: CSV file to process(repeatable)
+	--json <path>: Write JSON report to file
+	--help: Show this help
+)";
+
+}
 }
